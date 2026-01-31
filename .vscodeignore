@@ -1,0 +1,77 @@
+# Source files - exclude TypeScript source
+src/**
+**/*.ts
+!dist/**/*.ts
+
+# Compiled test files
+out/test/**
+
+# VS Code configuration
+.vscode/**
+.vscode-test/**
+**/.vscode-test.*
+
+# Build and configuration files
+webpack.config.js
+tsconfig.json
+**/tsconfig.json
+eslint.config.mjs
+**/eslint.config.mjs
+.eslintrc*
+.prettierrc*
+.editorconfig
+
+# Node modules
+node_modules/**
+
+# Git files
+.git/**
+.gitignore
+.gitattributes
+
+# Documentation files (development only)
+vsc-extension-quickstart.md
+CONTRIBUTING.md
+.github/**
+
+# Build artifacts
+**/*.map
+*.vsix
+
+# Yarn
+.yarnrc
+yarn.lock
+
+# NPM
+.npmrc
+npm-debug.log*
+package-lock.json
+
+# Test files
+**/*.test.ts
+**/*.test.js
+
+# CI/CD
+.travis.yml
+.gitlab-ci.yml
+azure-pipelines.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+*.swp
+*.swo
+*~
+.idea/**
+
+# Logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.nvmrc
+CHANGELOG.md
