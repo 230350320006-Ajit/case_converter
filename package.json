@@ -2,7 +2,9 @@
   "name": "case-converter-ui",
   "displayName": "Case Converter UI",
   "description": "convert case in camelCase, snake_case, PascalCase, SCREAMING_SNAKE_CASE, kebab-case, Title Case, Sentense case, dot.case, path/case",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "AI97",
+  "icon": "logo/icon.png",
   "engines": {
     "vscode": "^1.107.0"
   },

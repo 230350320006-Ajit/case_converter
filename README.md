@@ -62,6 +62,8 @@ Convert all JSON keys while preserving values:
 {
   "name": "Ajit",
   "email_address": "test@example.com",
+  "temporary_address":"hyderabad, India",
+  "permanent_address": "Maharashtra, India",
   "user_settings": {
     "theme_color": "light",
     "font_size": 14
@@ -72,8 +74,10 @@ Convert all JSON keys while preserving values:
 **Output (camelCase):**
 ```json
 {
-  "firstName": "Ajit",
+  "name": "Ajit",
   "emailAddress": "test@example.com",
+  "temporaryAddress":"hyderabad, India",
+  "permanentAddress": "Maharashtra, India",
   "userSettings": {
     "themeColor": "light",
     "fontSize": 14
